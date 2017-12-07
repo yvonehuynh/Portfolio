@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 30px;
+    background: $accentTwo;
     .port-link {
         border: 2px solid orange;
         width: 50%;
@@ -9,5 +11,29 @@
     .port-des {
         border: 2px solid grey;
         width: 50%;
+        background: $accentTwo;
+    }
+}
+
+.port-des {
+    .port-header {
+        display: block;
+        background: white;
+        margin: 0;
+    }
+}
+
+.create-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    i {
+        font-size: 4rem;
     }
 }
