@@ -16,7 +16,7 @@
 <body>
     <div class="wrapper">
         <section class="top-nav">
-            <div class="inner-wrap">
+            <div class="inner-wrapper">
                 <nav>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -29,42 +29,60 @@
 
         <header>
             <div class="inner-wrapper">
-                <h1>Yvone <span>Huynh</span></h1>
+                <span class="small-head">
+                    I am
+                </span>
             </div>
+            <h1>Yvone Huynh</h1>
         </header>
 
         <!-- About -->
         <section id="about">
+            <div class="about-container">
+
             <div class="about-photo">
-                <img src="" alt="Yvone Huynh portrait">
+                <img src="./public/assets/about-photo.jpg" alt="Yvone Huynh portrait">
             </div>
 
             <div class="about-header head">
                 <h2>About Me</h2>
                 <p class="about-des">
+                    I am a Web Developer that has unique skill sets that sets me apart from other developers. 
 
+                    I use assistive technologies to navigate the online world, and so, my knowledge of accessibility and the inner workings of assistive technologies are pretty vast. But, that doesn't stop me from coding cool things in Javascript and React! Through this, all of my projects are highly accessible to all users!
+
+                    I love working in collabroation and learning new coding languages, and helping others to learn and grow with me.                                     
                 </p>
+            </div>
             </div>
 
             <div class="attributes">
                 <div class="attr-des">
-                    <img src="" alt="">
+                    <div class="attr-icon">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                    </div>
                     <p>Clean Code</p>
                 </div>
 
                 <div class="attr-des">
-                    <img src="" alt="">
+                    <div class="attr-icon">
+                        <i class="fa fa-universal-access" aria-hidden="true"></i>
+                    </div>
                     <p>Accessible Design</p>
                 </div>
 
                 <div class="attr-des">
-                    <img src="" alt="">
-                    <p></p>
+                    <div class="attr-icon">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    </div>
+                    <p>User Friendly</p>
                 </div>
 
                 <div class="attr-des">
-                    <img src="" alt="">
-                    <p></p>
+                    <div class="attr-icon">
+                        <i class="fa fa-fire" aria-hidden="true"></i>
+                    </div>
+                    <p>Dynamic</p>
                 </div>
             </div>
         </section>
@@ -73,52 +91,62 @@
         <section id="skills">
             <div class="inner-wrapper">
                 <h2 class="skills-header head">Skills</h2>
-                <div class="skills-container">
-                    <!-- HTML -->
-                    <div id="html">
-                        <i class="devicon-html5-plain-wordmark"></i>
+                <div class="skills-parent">
+                    <div class="skills-container">
+                        <!-- HTML -->
+                        <div id="html">
+                            <i class="devicon-html5-plain-wordmark"></i>
+                        </div>
+                        <p>HTML</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- CSS -->
-                    <div id="css">
-                        <i class="devicon-css3-plain-wordmark"></i>
+                    <div class="skills-container">
+                        <!-- CSS -->
+                        <div id="css">
+                            <i class="devicon-css3-plain-wordmark"></i>
+                        </div>
+                        <p>CSS</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- SCSS -->
-                    <div id="sass">
-                        <i class="devicon-sass-original"></i>
+                    <div class="skills-container">
+                        <!-- SCSS -->
+                        <div id="sass">
+                            <i class="devicon-sass-original"></i>
+                        </div>
+                        <p>SASS</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- Javascript -->
-                    <div id="js">
-                        <i class="devicon-javascript-plain"></i>
+                    <div class="skills-container">
+                        <!-- Javascript -->
+                        <div id="js">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <p>Javascript</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- jQuery -->
-                    <div id="jquery">
-                        <i class="devicon-jquery-plain-wordmark"></i>
+                    <div class="skills-container">
+                        <!-- jQuery -->
+                        <div id="jquery">
+                            <i class="devicon-jquery-plain-wordmark"></i>
+                        </div>
+                        <p>jQuery</p>
                     </div>
-                </div>
-                <!-- React -->
-                <div class="skills-container">
-                    <div id="react">
-                        <i class="devicon-react-original-wordmark"></i>
+                    <!-- React -->
+                    <div class="skills-container">
+                        <div id="react">
+                            <i class="devicon-react-original-wordmark"></i>
+                        </div>
+                        <p>React</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- Gulp -->
-                    <div id="gulp">
-                        <i class="devicon-gulp-plain colored"></i>
+                    <div class="skills-container">
+                        <!-- Gulp -->
+                        <div id="gulp">
+                            <i class="devicon-gulp-plain colored"></i>
+                        </div>
+                        <p>Gulp</p>
                     </div>
-                </div>
-                <div class="skills-container">
-                    <!-- Github -->
-                    <div id="github">
-                        <i class="devicon-github-plain"></i>
+                    <div class="skills-container">
+                        <!-- Github -->
+                        <div id="github">
+                            <i class="devicon-github-plain"></i>
+                        </div>
+                        <p>Github</p>
                     </div>
                 </div>
             </div>
@@ -207,7 +235,8 @@
 
 
 
-
+    <!-- Font Awesome -->
+<script src="https://use.fontawesome.com/3259d81f6e.js"></script>
     <script src="./public/sripts/main.js"></script>
 </body>
 </html>

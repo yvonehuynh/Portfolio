@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid orange;
+    li {
+        list-style-type: none;
+        border: 2px solid red;
+    }
+    a {
+        padding: 10px;
+        margin: 0 5px;
+    }
+}
+

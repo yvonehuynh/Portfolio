@@ -8,6 +8,7 @@ const babel = require('gulp-babel');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const reload = browserSync.reload;
+const plumber = require('gulp-plumber');
 
 
 gulp.task('styles', () => {

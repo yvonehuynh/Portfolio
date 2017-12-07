@@ -1,0 +1,19 @@
+.about-container {
+    display: flex;
+    border: 2px solid green;
+}
+
+.about-photo, .about-header {
+    width: 505;
+}
+
+.about-header {
+    h2 {
+        display: inline-block;
+    }
+}
+
+.attributes {
+    border: 2px solid red;
+    display: flex;
+}
