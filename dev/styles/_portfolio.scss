@@ -1,0 +1,13 @@
+.port-parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .port-link {
+        border: 2px solid orange;
+        width: 50%;
+    }
+    .port-des {
+        border: 2px solid grey;
+        width: 50%;
+    }
+}

@@ -1,8 +1,10 @@
 @import "setup";
+@import "colours";
 @import "./top-nav";
 @import "header";
 @import "about";
 @import "skills";
+@import "portfolio";
 
 // general styles
 
@@ -15,10 +17,15 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 // wrappers
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .inner-wrapper {
     width: 80%;
@@ -36,4 +43,18 @@ h1 {
     display: inline-block;
     background: rgba(255, 0, 0, 0.5);
     width: 100%;
+}
+
+h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+p {
+    font-size: 2rem;   
+}
+
+// Sections
+section {
+    padding: 40px 0;
 }

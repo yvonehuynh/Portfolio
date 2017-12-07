@@ -1,12 +1,12 @@
 #skills {
     border: 2px solid green;
     .skills-parent {
-        background: lightcyan;
+        background: red;
         padding: 3%;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
- /*        flex-shrink: 2; */
+        flex-shrink: 2;
     }
 }
 
@@ -20,9 +20,12 @@
     }
     i {
         font-size: 8rem;
+        color: white;
     }
     p {
         text-align: center;
         font-size: 3rem;
+        color: white;
     }
 }
+
