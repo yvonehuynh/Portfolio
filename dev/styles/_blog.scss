@@ -1,6 +1,6 @@
 .blog-post {
     margin: 90px 0;
-    background: $primary;
+    background: $secondary;
     display: flex;
     width: 80%;
     padding-bottom: 20px;
@@ -13,7 +13,7 @@
         position: absolute;
         z-index: 1;
         left: -20px;
-        bottom: 83px;
+        bottom: 23px;
     }
 
     .blog-des {
@@ -33,11 +33,31 @@
         right: 142px;
         z-index: 1;
         font-size: 2rem;
+        width: 100%;
     }
+    blockquote::before {
+        content: '“';
+        position: absolute;
+        color: red;
+        width: 10%;
+        height: 59px;
+        font-size: 18rem;
+        bottom: 106px;
+        left: -45px;
+        }
+    blockquote::after {
+        content: '”';
+        position: absolute;
+        color: red;
+        width: 10%;
+        height: 59px;
+        font-size: 18rem;
+        bottom: 38px;
+        }
 }
 
 .reverse {
-    background: blue;
+    background: $tererary;
     position: relative;
     margin-left: 20%;
     .blog-des {

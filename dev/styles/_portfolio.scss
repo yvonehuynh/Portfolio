@@ -4,12 +4,14 @@
     flex-wrap: wrap;
     padding-bottom: 30px;
     background: $accentTwo;
+    .port-body {
+        padding: 25px;
+    }
     .port-link {
-        border: 2px solid orange;
         width: 50%;
+        background: $primary;
     }
     .port-des {
-        border: 2px solid grey;
         width: 50%;
         background: $accentTwo;
     }
@@ -20,6 +22,7 @@
         display: block;
         background: white;
         margin: 0;
+        padding: 20px;
     }
 }
 
@@ -35,5 +38,6 @@
     }
     i {
         font-size: 4rem;
+        color: red;
     }
 }
