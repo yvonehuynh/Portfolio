@@ -6,6 +6,35 @@
         display: flex;
         justify-content: space-between;
         flex-direction: column;
-        width: 35%;
+    }
+}
+
+// footer
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .contact-form, .connect {
+        width: 40%;
+    }
+}
+
+.connect-icons {
+    padding: 0;
+    margin: 0;
+    li {
+        margin: 10px 0;
+        list-style-type: none;
+    }
+    a {
+        display: flex;
+    }
+    p {
+        margin:0;
+        margin-left:10px;
+    }
+    i {
+        font-size: 3rem;
     }
 }

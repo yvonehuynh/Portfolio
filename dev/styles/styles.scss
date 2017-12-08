@@ -6,6 +6,7 @@
 @import "skills";
 @import "portfolio";
 @import "form";
+@import "blog";
 
 // general styles
 
@@ -36,6 +37,7 @@ img {
 // Typography
 a {
     text-decoration: none;
+    color: black;
 }
 
 h1 {
@@ -51,6 +53,9 @@ h2 {
     font-weight: 800;
 }
 
+h3 {
+    font-size: 3rem;
+}
 p {
     font-size: 2rem;   
 }

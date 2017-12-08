@@ -1,0 +1,59 @@
+.blog-post {
+    margin: 90px 0;
+    background: $primary;
+    display: flex;
+    width: 80%;
+    padding-bottom: 20px;
+    a {
+        display: flex;
+        position: relative;
+    }
+    .blog-image {
+        width: 45%;
+        position: absolute;
+        z-index: 1;
+        left: -20px;
+        bottom: 83px;
+    }
+
+    .blog-des {
+        padding: 30px;
+        width: 60%;
+        position: relative;
+        left: 42%;
+    }   
+}
+
+.blog-des {
+    blockquote {
+        display: block;
+        background: white;
+        padding: 20px;
+        position: relative;
+        right: 142px;
+        z-index: 1;
+        font-size: 2rem;
+    }
+}
+
+.reverse {
+    background: blue;
+    position: relative;
+    margin-left: 20%;
+    .blog-des {
+        left: 0;
+    }
+    .blog-image {
+        left: 60%;
+        bottom: 23px;
+        }
+    blockquote {
+        position: relative;
+        z-index: 2;
+        font-size: 2rem;
+        left: 277px;
+    }
+    h3 {
+        text-align: right;
+    }
+}

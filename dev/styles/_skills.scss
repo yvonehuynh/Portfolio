@@ -1,7 +1,8 @@
 #skills {
     border: 2px solid green;
+    background: $tererary;
     .skills-parent {
-        background: red;
+        background: $accentTwo;
         padding: 3%;
         display: flex;
         justify-content: space-between;
@@ -20,12 +21,12 @@
     }
     i {
         font-size: 8rem;
-        color: white;
+        color: red;
     }
     p {
         text-align: center;
         font-size: 3rem;
-        color: white;
+        color: red;
     }
 }
 
