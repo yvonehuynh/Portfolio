@@ -9,6 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
     <!-- Dev Icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="./public/styles/style.css">
     <title>Document</title>
@@ -162,12 +165,22 @@
         <section id="portfolio">
             <div class="inner-wrapper">
                 <h2 class="portfolio-header head">Portfolio</h2>
-               <div class="port-parent">
-                  <div class="port-link">
-                    <a href="">
-                        <img src="/public/assets/coursea.png" alt="">
-                    </a>
+                <div class="port-parent">
+                    <div class="port-link">
+                        <div class="main-carousel">
+                            <div class="carousel-cell">
+                                <a href="">
+                                  <img src="/public/assets/coursea.png" alt="">
+                                </a>
+                            </div>
+                          <div class="carousel-cell">
+                            <a href="">
+                                <img src="/public/assets/coursea2.png" alt="hello">
+                            </a>
+                        </div>
                     </div>
+                </div>
+                
                      <div class="port-des">
                         <h2 class="port-header header">Coursea</h2>
                         <div class="port-body">
@@ -200,15 +213,29 @@
                         </div>
                     </div>
                     <div class="port-link">
-                        <a href="">
-                            <img src="/public/assets/whack.png" alt="">
-                        </a>
+                        <div class="main-carousel">
+                            <div class="carousel-cell">
+                                <a href="">
+                                    <img src="/public/assets/whack.png" alt="">
+                                </a>
+                             </div>
+                            <div class="carousel-cell">
+                                    <p>poof</p>
+                            </div>
                         </div>
+                    </div>
                 </div> <!-- Port parent -->
                 
                 <div class="port-parent">
                   <div class="port-link">
-                      <a href=""><img src="/public/assets/protectme.png" alt=""></a>
+                      <div class="main-carousel">
+                          <div class="carousel-cell">
+                              <a href=""><img src="/public/assets/protectme.png" alt=""></a>
+                          </div>
+                          <div class="carousel-cell">
+
+                          </div>
+                      </div>
                     </div>
                   <div class="port-des">
                         <h2 class="port-header header">ProtectMe UV App</h2>
@@ -251,9 +278,18 @@
                         </div>
                     </div>
                     <div class="port-link">
-                        <a href="">
-                            <img src="/public/assets/travel.png" alt="">
-                        </a>
+                        <div class="main-carousel">
+                            <div class="carousel-cell">
+                                <a href="">
+                                    <img src="/public/assets/travel.png" alt="">
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                
+                                    <img src="/public/assets/travel2.png" alt="">
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Port parent -->
@@ -346,12 +382,16 @@
 
 
 
-
+    
     <!-- Font Awesome -->
-<script src="https://use.fontawesome.com/3259d81f6e.js"></script>
-<!-- Flickity -->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
-    <script src="./public/sripts/main.js"></script>
+    <script src="https://use.fontawesome.com/3259d81f6e.js"></script>
+    <!-- jQuery -->
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js' integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='crossorigin='anonymous'></script>
+
+    <!-- Flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+    <script src="./public/scripts/main.js"></script>
 </body>
 </html>
 
