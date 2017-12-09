@@ -12,13 +12,21 @@
 
     <!-- Flickity -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css">
+
+    <!-- WOW.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="./public/styles/style.css">
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
-        <section class="top-nav">
+<!--         <section class="top-nav">
+            <div class="inner-wrapper">
+            </div>
+        </section> -->
+        
+        <header>
             <div class="inner-wrapper">
                 <nav>
                     <li><a href="#about">About</a></li>
@@ -27,16 +35,17 @@
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </nav>
-            </div>
-        </section>
-
-        <header>
-            <div class="inner-wrapper">
                 <span class="small-head">
                     I am
                 </span>
             </div>
             <h1>Yvone Huynh</h1>
+            <h2 class="typewrite">
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Web Developer.", "Accessibility Advocate.", "I Love to Develop, Learn, & Collaborate." ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h2>
+
         </header>
 
         <!-- About -->
@@ -257,24 +266,26 @@
                 <div class="port-parent module">
                     <div class="port-des">
                         <h2 class="port-header header">Travel Meetup</h2>
-                        <p>HIghly useful web and mobile app that lets you find meetups and nearby restaurants in your area!</p>
-                        <p>Built in collaboration with Eileen Choi & Barnabas Chun</p>
-                        <div class="create">
-                            <p>Created With: </p>
-                            <ul class="create-icons">
-                                <li>
-                                    <i class="devicon-html5-plain-wordmark"></i>
-                                </li>
-                                <li>
-                                    <i class="devicon-css3-plain-wordmark"></i>
-                                </li>
-                                <li>
-                                    <i class="devicon-javascript-plain"></i>
-                                </li>
-                                <li>
-                                    <i class="devicon-jquery-plain-wordmark"></i>
-                                </li>
-                            </ul>
+                        <div class="port-body">
+                            <p>HIghly useful web and mobile app that lets you find meetups and nearby restaurants in your area!</p>
+                            <p>Built in collaboration with Eileen Choi & Barnabas Chun</p>
+                            <div class="create">
+                                <p>Created With: </p>
+                                <ul class="create-icons">
+                                    <li>
+                                        <i class="devicon-html5-plain-wordmark"></i>
+                                    </li>
+                                    <li>
+                                        <i class="devicon-css3-plain-wordmark"></i>
+                                    </li>
+                                    <li>
+                                        <i class="devicon-javascript-plain"></i>
+                                    </li>
+                                    <li>
+                                        <i class="devicon-jquery-plain-wordmark"></i>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="port-link">
@@ -301,7 +312,7 @@
         <section id="blog">
             <div class="wrapper">
                 <h2 class="blog-header head">Blog</h2>
-                <div class="blog-post">
+                <div class="blog-post wow slideInLeft data-wow-duration="5s"">
                     <a href="https://medium.com/@yvonecodesit/why-navs-drove-me-to-become-a-web-developer-8e796a93080">
                     <div class="blog-image">
                         <img src="/public/assets/fabian-grohs-437907.jpg" alt="computer with text editor program open with code on the display">
@@ -313,7 +324,7 @@
                     </a>
                 </div>
 
-                <div class="blog-post reverse">
+                <div class="blog-post reverse wow slideInRight data-wow-duration="5s"">
                     <a href="https://medium.com/@yvonecodesit/stop-struggling-with-alt-2770395ea3d9">
                         <div class="blog-des">
                             <h3>The Struggle with ALT Is Real</h3>
@@ -390,6 +401,10 @@
 
     <!-- Flickity -->
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+
+    <!-- WOW.js -->
+
+<script src="./dev/scripts/wow.min.js"></script>
 
     <script src="./public/scripts/main.js"></script>
 </body>

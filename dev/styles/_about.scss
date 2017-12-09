@@ -37,6 +37,8 @@
     bottom: 95px;
     z-index: 1;
     box-shadow: 10px 10px 5px lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
 }
 
 .attr-des {
@@ -55,7 +57,11 @@
 
 .attr-icon {
     margin: 0 auto;
+    color: red;
     i {
         font-size: 6rem;
+    }
+    p {
+        font-weight: bold;
     }
 }
