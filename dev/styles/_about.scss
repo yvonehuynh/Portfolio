@@ -16,13 +16,19 @@
 }
 
 .about-header {
-    width: 80%;
-}
-
-.about-header {
     h2 {
         display: inline-block;
+        margin: 0;
     }
+    p {
+        font-size: 1.8rem;
+    }
+}
+
+em {
+    color: red;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .attributes {
