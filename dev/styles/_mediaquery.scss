@@ -211,5 +211,63 @@
         justify-content: space-around;
     }
 }
+}
 
+@media only screen and (max-width: 710px) {
+    // navigation
+    #menuToggle, .menu-icon {
+        display: block;
+    }
+
+    header {
+        .inner-wrapper {
+            position: relative;
+        }
+    }
+
+    .small-head {
+        padding-top: 12px;
+    }
+
+    .page-menu {
+        width: 240px;
+        height: 305%;
+        position: absolute;
+        background: $primary;
+        left: -289px;
+        transition: all .3s ease-in-out;
+        flex-direction: column;
+        li {
+            padding: 12px 0;
+        }
+        li:hover {
+            background: white;
+        }
+}
+.menu-icon {
+	padding: 10px 20px;
+    color: red;
+	cursor: pointer;
+	float: right;
+	margin: 6px 6px 0 0;
+    border-radius: 5px;
+    top: 100%;
+    font-size: 5rem;
+}
+    #menuToggle { display: none; }
+
+    #menuToggle:checked ~ .page-menu { position: absolute; left: 0; }
+
+
+
+    // skills section
+    .skills-container {
+            width: 24%;
+        p {
+            font-size: 2.5rem;
+        }
+        i {
+                font-size: 5rem;
+        }
+    }
 }
