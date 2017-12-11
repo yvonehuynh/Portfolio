@@ -12,6 +12,7 @@
         background: $primary;
         float: left;
         position: relative;
+        max-height: 360px;
     }
     .port-des {
         width: 50%;
@@ -41,5 +42,22 @@
     i {
         font-size: 4rem;
         color: red;
+    }
+}
+
+.port-body {
+    .inline-link {
+        display: inline-block;
+            padding: 5px 10px;
+    }
+}
+
+.visit-port-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    a {
+        margin: 0 5px;
     }
 }

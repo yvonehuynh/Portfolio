@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1020px) {
+
+    h2 {
+        font-size: 3.5rem;
+    }
+    // about section
+    .inner-wrapper {
+        width: 90%;
+    }
+
+    .about-header {
+        p {
+            font-size: 1.6rem;
+        }
+    }
+    .attr-cont {
+        top: 126%;
+        width: 76%;
+    left: 19%;
+    }
+
+    // blog section
+    .blog-post {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    h1 {
+        padding-left: 154px;
+    }
+
+    // about section
+    .attr-cont {
+        position: relative;
+        .attr-icon i {
+            font-size: 4rem;
+            }
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    .about-container {
+        flex-direction: column;
+        .inner-wrapper {
+            width: 100%;
+        }
+    }
+
+    .about-quote {
+        display: block;
+        position: absolute;
+        font-size: 4.8rem;
+        color: red;
+        bottom: 10px;
+        left: 100%;
+    }
+    
+    .inner-wrapper {
+        width: 97%;
+    }
+
+    .attr-cont {
+        position: relative;
+        width: 100%;
+        left: 0;
+    }
+
+    // skills section
+
+    #skills {
+        padding: 40px 50px;
+    }
+
+    // portfolio section
+
+    .visit-port-links {
+        margin-top: 11%;
+    }
+
+    // blog section
+
+    .reverse {
+            margin-left: 8%;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .blog-des {
+        blockquote {
+            right: 102px;
+        }
+    }
+
+    .reverse {
+        blockquote {
+                left: 57px;
+        }
+    }
+
+    .blog-des blockquote::before {
+        font-size: 11rem;
+        bottom: 106px;
+        left: -28px;
+    }
+
+    .blog-des blockquote::after {
+        height: 59px;
+        font-size: 11rem;
+        bottom: 12px;
+    }
+}

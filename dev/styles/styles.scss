@@ -69,3 +69,23 @@ p {
 section {
     padding: 40px 0;
 }
+
+.head {
+    position: relative;
+}
+
+// inline-links
+
+.inline-link {
+    height: 40px;
+    padding: 12px;
+    background: red;
+    display: inline-block;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+@import "mediaquery";

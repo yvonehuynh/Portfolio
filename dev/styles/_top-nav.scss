@@ -8,6 +8,39 @@ nav {
     a {
         padding: 10px;
         margin: 0 5px;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        transition: all 0.2s ease;
+        position: relative;
+    }
+    a::before {
+        content: "<";
+        position: absolute;
+        color: transparent;
+        left: -2px;
+        transition: all 0.3s ease-in;
+    }
+    a::after {
+        content: ">";
+        position: absolute;
+        color: transparent;
+        right: -2px;
+        transition: all 0.3s ease-in;
+    }
+    a:hover {
+        color: red;
+    }
+    a:hover::before {
+        content: "<";
+        position: absolute;
+        color: red;
+        left: -2px;
+    }
+    a:hover::after {
+        content: ">";
+        position: absolute;
+        color: red;
+        right: -2px;
     }
 }
-
