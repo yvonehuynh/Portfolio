@@ -79,6 +79,9 @@
     .visit-port-links {
         margin-top: 11%;
     }
+        .port-link {
+        max-height: 360px;
+    }
 
     // blog section
 
@@ -113,4 +116,100 @@
         font-size: 11rem;
         bottom: 12px;
     }
+}
+
+@media only screen and (max-width: 740px) {
+    h1 {
+    padding-left: 80px;
+}
+    // about section
+    .about-header p {
+    font-size: 2rem;
+}
+    .attr-des {
+        p {
+            text-align: center;
+            font-size: 1.4rem;
+        }
+    }
+
+    // skills section
+
+    // portfolio section
+    .flickity-enabled.is-draggable {
+        padding-top: 55px;
+    }
+    .port-body {
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
+    .port-header {
+        font-size: 3rem;
+    }
+
+    // blog section {
+        .blog-post {
+            a {
+                flex-direction: column;
+            }
+            .blog-image {
+                position: static;
+                width: 100%;
+            }
+            .blog-des {
+                left: 0;
+                width: 100%;
+            }
+            blockquote {
+                right: 0;
+                width: 100%;
+            }
+            blockquote::before {
+            font-size: 11rem;
+            bottom: 87px;
+            left: -28px;
+        }
+        }
+        .reverse {
+            blockquote {
+                left: -89px;
+            }
+        }
+
+    // footer section
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        background: $secondary;
+        padding: 30px;
+        box-shadow: 4px,4px,4px grey;
+        position: relative;
+    .contact-form, .connect {
+      width: 40%;
+    }
+    .connect {
+        position: absolute;
+        right: 0;
+        background: white;
+        width: 53%;
+        padding: 29px;
+        box-shadow: 10px 10px 10px grey;
+        top: -152px;
+    }
+    .contact-form {
+        width: 100%;
+        padding: 31px;
+    }
+    .connect-icons {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
 }

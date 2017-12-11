@@ -85,3 +85,45 @@
 .carousel-cell {
     width: 100%;
 }
+
+.read-hover {
+    display: none;
+    color: red;
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.blog-post {
+    a:hover .read-hover {
+        display: inline-block;
+        position: absolute;
+        padding: 0 5px;
+    }
+
+    // footer section
+
+    .footer-content {
+        position: relative;
+        .connect {
+            position: absolute;
+            right: 0;
+            background: white;
+            width: 53%;
+            padding: 29px;
+            -webkit-box-shadow: 10px 10px 10px grey;
+            box-shadow: 10px 10px 10px grey;
+            top: -137px;
+        }
+        .contact-form {
+            width: 100%;
+        }
+        .connect-icons {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+            }
+
+}
