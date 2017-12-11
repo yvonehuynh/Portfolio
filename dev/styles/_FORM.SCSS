@@ -24,13 +24,18 @@ form {
     input, textarea {
         margin: 5px 0;
         border: 1px solid $primary;
+        font-size: 1.8rem;
     }
     input {
         padding: 5px;
-        font-size: 1.8rem;
+        width: 50%;
+        margin: 1%;
     }
     .name-address {
         display: flex;
+    }
+    textarea {
+        width: 100%;
     }
 }
 // footer
@@ -42,8 +47,22 @@ form {
     background: $secondary;
     padding: 30px;
     box-shadow: 4px,4px,4px grey;
+    position: relative;
     .contact-form, .connect {
       width: 40%;
+    }
+    .connect {
+        position: absolute;
+        right: 0;
+        background: white;
+        width: 34%;
+        padding: 29px;
+        box-shadow: 10px 10px 10px grey;
+        top: 36px;
+    }
+    .contact-form {
+        width: 65%;
+        padding: 31px;
     }
 }
 
