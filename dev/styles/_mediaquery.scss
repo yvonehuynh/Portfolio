@@ -223,6 +223,9 @@
         .inner-wrapper {
             position: relative;
         }
+        .typewrite {
+            padding-left: 8px;
+        }
     }
 
     .small-head {
@@ -322,6 +325,25 @@
     .flickity-viewport {
         height: 337px;
     }
+
+    // blog section
+
+    .blog-des {
+        blockquote::after, blockquote::before {
+            display: none;
+        }
+    }
+    .reverse {
+        margin-left: 1%;
+        blockquote {
+            left: -81px;
+        }
+    }
+
+    .read-hover {
+        display: inline-block;;
+    }
+    
 }
 
 @media only screen and (max-width: 645px) {
@@ -334,6 +356,12 @@
         .attr-cont {
             p:first-child {
                 font-size: 1.55rem;
+            }
+            p {
+                font-size: 1.3rem;
+            }
+            i {
+                font-size: 3rem;
             }
         }
     
@@ -357,6 +385,219 @@
         }
             .connect-header {
                 margin: 0;
+                text-align: center;
             }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    h1 {
+        padding-left: 56px;
+    }
+
+    // about section
+    .about-quote {
+        font-size: 3rem;
+    }
+    // blog section
+    .blog-post {
+        width: 100%;
+    }
+
+    // skills section
+    #skills {
+        padding: 40px 30px;
+    }
+
+    // footer section
+
+    .footer-content {
+        .contact-form {
+            padding: 0;
+        }
+    }
+        // footer section
+
+    .connect-icons {
+        i {
+            width: 43.3%;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+    // header section
+    h1 {
+        font-size: 4.5rem;
+    }
+    .small-head {
+        padding-top: 30px;
+    }
+
+    .typewrite {
+        font-size: 2.7rem;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    // header section
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .small-head {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .page-menu {
+    width: 163px;
+    }
+
+    // about section
+    .attributes {
+        flex-direction: column;
+        height: 113px;
+        flex-wrap: wrap;
+    }
+    .about-header {
+        padding: 11px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    // header
+
+    header {
+        background-position: 27%;
+        height: 47vh;
+    }
+
+    .attr-cont {
+        p {
+            font-size: 1.25rem;
+        }
+
+        .attr-icon {
+            i {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .inline-link {
+        font-size: 1.5rem;
+    }
+
+    // skills section
+
+    .skills-container {
+        width: 14%;
+        i {
+            font-size: 4rem;
+        }
+        p {
+            font-size: 2rem;
+        }
+    }
+
+    // blog section
+    .blog-post {
+        .blog-des {
+            padding: 20px;
+        }
+    }
+
+    // footer section
+    .connect-icons {
+        p {
+            display: none;
+        }
+    }
+    .about-quote {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .small-head {
+        font-size: 4rem;
+    }
+    .about-quote {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    // skills section
+
+    #skills {
+        padding: 10px 11px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    // general styles
+    .inline-link {
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px 0;
+    }
+
+    // about section 
+    .about-quote {
+        font-size: 1.8rem;
+    }
+
+    // skills section
+
+    .skills-container {
+        p {
+            font-size: 1.7rem;
+        }
+    }
+
+    // footer section
+
+    .footer-content {
+        padding: 20px;
+        .connect {
+            top: -122px;
+        }
+    }
+
+    .head {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    h1 {
+        padding-left: 31px;
+    }
+
+    // header section
+
+    .typewrite {
+        font-size: 2rem;
     }
 }
