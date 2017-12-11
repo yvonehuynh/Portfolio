@@ -171,7 +171,7 @@
             bottom: 87px;
             left: -28px;
         }
-        }
+    }
         .reverse {
             blockquote {
                 left: -89px;
@@ -243,22 +243,30 @@
         li:hover {
             background: white;
         }
-}
-.menu-icon {
-	padding: 10px 20px;
-    color: red;
-	cursor: pointer;
-	float: right;
-	margin: 6px 6px 0 0;
-    border-radius: 5px;
-    top: 100%;
-    font-size: 5rem;
-}
-    #menuToggle { display: none; }
+    }
 
-    #menuToggle:checked ~ .page-menu { position: absolute; left: 0; }
+    .menu-icon {
+        padding: 10px 20px;
+        color: red;
+        cursor: pointer;
+        float: right;
+        margin: 6px 6px 0 0;
+        border-radius: 5px;
+        top: 100%;
+        font-size: 5rem;
+    }
+        #menuToggle { 
+            display: none; 
+        }
 
+        #menuToggle:checked ~ .page-menu { 
+            position: absolute; 
+            left: 0; 
+        }
 
+        .typewrite {
+            font-size: 3rem;
+        }
 
     // skills section
     .skills-container {
@@ -267,7 +275,88 @@
             font-size: 2.5rem;
         }
         i {
-                font-size: 5rem;
+            font-size: 5rem;
         }
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    // about section
+
+    .about-header {
+        p {
+            font-size: 1.5rem;
+        }
+    }
+
+    .about-quote {
+        font-size: 3.8rem;
+    }
+
+    // portfolio section
+    .port-parent {
+        flex-direction: column;
+        .port-link {
+            width: 100%;
+            max-height: 100%;
+        }
+        .port-des {
+            width: 100%;
+            order: 2;
+        }
+        .visit-port-links {
+            margin-bottom: 10px;
+        }
+    }
+    .port-des {
+        .port-header:nth-child(even) {
+            text-align: right;
+        }
+    }
+
+
+    .flickity-enabled.is-draggable {
+        padding-top: 0;
+    }
+
+    .flickity-viewport {
+        height: 337px;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+
+    h1 {
+            font-size: 5rem;
+    }
+
+    // about section {
+        .attr-cont {
+            p:first-child {
+                font-size: 1.55rem;
+            }
+        }
+    
+        .attributes {
+             padding: 0;
+        }
+
+    // skills section
+    .skills-container {
+        width: 20%;
+    }
+
+    .head {
+        font-size: 3rem;
+    }
+
+    // footer section
+    .footer-content {
+        .connect {
+            width: 100%;
+        }
+            .connect-header {
+                margin: 0;
+            }
     }
 }
