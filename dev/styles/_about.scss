@@ -55,9 +55,9 @@ em {
     padding: 20px;
     margin: 0;
     width: 71%;
-    position: absolute;
+    position: relative;
     left: 23%;
-    top: 131%;
+    top: -71px;
     z-index: 1;
     background: white;
     flex-shrink: 2;
@@ -85,7 +85,8 @@ em {
 
 .attr-icon {
     margin: 0 auto;
-    color: red;
+    color: black;
+    text-align: center;
     i {
         font-size: 6rem;
     }

@@ -600,4 +600,34 @@
     .typewrite {
         font-size: 2rem;
     }
+
+    // about section
+    .attr-cont {
+        p {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    // about section
+
+    .about-quote {
+        left: 88%;
+    }
+
+    // skills ection
+
+    .skills-container {
+        i {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+        // portfolio section
+    .port-header {
+        font-size: 2.5rem;
+    }
 }
