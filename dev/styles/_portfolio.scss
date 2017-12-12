@@ -4,12 +4,13 @@
     flex-wrap: wrap;
     padding-bottom: 30px;
     background: $accentTwo;
+    margin-bottom: 20px;
+    padding: 40px;
     .port-body {
         padding: 25px;
     }
     .port-link {
         width: 50%;
-        background: $primary;
         float: left;
         position: relative;
     }
@@ -22,7 +23,6 @@
 .port-des {
     .port-header {
         display: block;
-        background: white;
         margin: 0;
         padding: 20px;
     }

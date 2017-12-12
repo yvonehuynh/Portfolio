@@ -135,7 +135,7 @@ const animateType=(()=>{
         // INJECT CSS
         var css = document.createElement("style");
         css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 1rem solid #ff0000}";
+        css.innerHTML = ".typewrite > .wrap { border-right: 1rem solid #000}";
         document.body.appendChild(css);
     };
     //RERUN
