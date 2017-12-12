@@ -4,7 +4,6 @@
     display: flex;
     .inner-wrapper {
         position: relative;
-        z-index: -1;
         background: $accentThree;
     }
 }
@@ -40,14 +39,8 @@ em {
     background: white;
     display: flex;
     justify-content: space-between;
-/*     padding: 20px;
-    margin: 0;
-    width: 71%;
-    position: relative;
-    left: 28%;
-    bottom: 95px;
-    z-index: 1; */
 }
+
 .attr-cont {
     box-shadow: 10px 10px 5px lightgrey;
     border-right: 2px solid lightgrey;

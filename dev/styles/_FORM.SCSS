@@ -22,20 +22,19 @@
 
 form {
     input, textarea {
-        margin: 5px 0;
+        margin: 1%;
         border: 1px solid $primary;
         font-size: 1.8rem;
     }
     input {
         padding: 5px;
         width: 50%;
-        margin: 1%;
     }
     .name-address {
         display: flex;
     }
     textarea {
-        width: 100%;
+        width: 98%;
     }
 }
 // footer
