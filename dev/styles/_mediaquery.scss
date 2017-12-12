@@ -16,7 +16,7 @@
     .attr-cont {
         top: 126%;
         width: 76%;
-    left: 19%;
+        left: 24%;
     }
 
     // blog section
@@ -25,7 +25,7 @@
     }
 }
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 900px) {
 
     h1 {
         padding-left: 154px;
@@ -64,8 +64,10 @@
 
     .attr-cont {
         position: relative;
-        width: 100%;
-        left: 0;
+
+            top: 126%;
+    width: 89%;
+    left: 10%;
     }
 
     // skills section

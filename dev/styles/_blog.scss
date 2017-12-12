@@ -7,39 +7,45 @@
     background: $secondary;
     display: flex;
     width: 80%;
-    padding-bottom: 20px;
     a {
         display: flex;
         position: relative;
     }
+    .inline-link {
+        display: block;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+    }
     .blog-image {
-        width: 45%;
-        position: absolute;
-        z-index: 1;
-        left: -20px;
-        bottom: 23px;
+        width: 53%;
     }
 
     .blog-des {
-        padding: 30px;
+        padding: 0 30px;
         width: 60%;
-        position: relative;
         left: 42%;
     }   
 }
 
 .blog-des {
+    background: white;
     blockquote {
         display: block;
         background: white;
         padding: 20px;
         position: relative;
-        right: 142px;
+/*         right: 142px; */
         z-index: 1;
         font-size: 2rem;
         width: 100%;
+        margin: 0;
     }
-    blockquote::before {
+/*     blockquote::before {
         content: '“';
         position: absolute;
         color: red;
@@ -57,7 +63,7 @@
         height: 59px;
         font-size: 18rem;
         bottom: 38px;
-        }
+        } */
 }
 
 .reverse {
@@ -75,7 +81,7 @@
         position: relative;
         z-index: 2;
         font-size: 2rem;
-        left: 277px;
+        text-align: right;
     }
     h3 {
         text-align: right;
