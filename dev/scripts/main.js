@@ -11,7 +11,6 @@ const wowAnimate=(()=>{
             live: true       
         }
     ).init();
-    
 })
 
 /* Animate on Scroll */
@@ -141,22 +140,22 @@ const animateType=(()=>{
     //RERUN
 })
 
+function closeLink() {
+    $('a[href^="#"]').on('click', function () {
+        $('input[type="checkbox"]').prop('checked', false);
+
+    });
+}
+
 script.init = (()=>{
     animateType();
     animateScroll();
     flickity();
     wowAnimate();
+    closeLink();
+    wowAnimate();
 })
 
 $(document).ready(function () {
     script.init();
-    new WOW().init()
-    
-    function closeLink(){
-        $(".page-menu li a").on("click", function(){
-            $(".page-menu li").addClass("toggleNav");
-        })
-    }
-
-    closeLink();
  });

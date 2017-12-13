@@ -240,7 +240,6 @@
     
     .small-head {
         top: 55px;
-        padding-top: 12px;
     }
 
     .page-menu {
@@ -380,7 +379,7 @@
      }    
 }
 
-@media only screen and (min-height: 360px) and (min-width:640px) {
+@media only screen and (min-height: 360px) and (max-width:640px) {
     // about section
 
     .attributes {
@@ -444,7 +443,7 @@
     }
 }
 
-@media only screen and (min-height: 360px) and (min-width:598px) {
+@media only screen and (min-height: 360px) and (max-width:598px) {
     // about section
 
     .attributes {
