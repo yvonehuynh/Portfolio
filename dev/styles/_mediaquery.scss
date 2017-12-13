@@ -244,18 +244,31 @@
     }
 
     .page-menu {
-        width: 240px;
+        width: 100%;
         height: 305%;
         position: absolute;
-        background: $primary;
-        left: -289px;
+        left: -478px;
+        top: 325px;
         transition: all .3s ease-in-out;
         flex-direction: column;
         li {
             padding: 12px 0;
+            background: white;
+            position: relative;
+            z-index: 1;
         }
         li:hover {
             background: white;
+        }
+        a {
+                text-align: center;
+    display: block;
+        }
+    }
+
+    nav {
+        a {
+            padding: 0;
         }
     }
 
@@ -468,10 +481,6 @@
         font-size: 2.5rem;
     }
 
-    .page-menu {
-        width: 163px;
-    }
-
     // about section
     .attributes {
         flex-direction: column;
@@ -549,6 +558,21 @@
     }
     .about-quote {
         font-size: 2.5rem;
+    }
+
+    form {
+        .name-address {
+            display: block;
+        }
+        input {
+            width: 100%;
+            margin: 0;
+        }
+        textarea {
+            margin: 10px 0;
+            width: 100%;
+            padding: 0;
+        }
     }
 }
 
@@ -657,13 +681,13 @@
 @media only screen and (max-width: 350px) {
     h1 {
         padding-left: 31px;
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
 
     // header section
 
     .small-head {
-        font-size: 2.1rem;
+        font-size: 1.6rem;
     }
 
     // about section
