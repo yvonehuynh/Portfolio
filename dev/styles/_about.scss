@@ -17,6 +17,11 @@
 .about-links {
     display: flex;
     justify-content: space-between;
+    .inline-link:hover {
+        background: white;
+        color: red;
+        border: 1px solid red;
+    }
 }
 
 .about-header {

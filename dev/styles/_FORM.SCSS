@@ -86,8 +86,9 @@ form {
         font-size: 3rem;
     }
 }
-
-input[type=submit], button {
+/* 
+input[type="submit"] */
+button {
     background: red;
     border: 1px solid red;
     text-transform: uppercase;
@@ -95,6 +96,10 @@ input[type=submit], button {
     color: white;
     width: 60%;
     padding: 8px 5px;
-    margin: 0 auto;
+    margin: 10px auto;
+}
 
+button:hover {
+    background: white;
+    color: red;
 }

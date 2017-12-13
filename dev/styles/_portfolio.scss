@@ -24,7 +24,6 @@
     .port-header {
         display: block;
         margin: 0;
-        padding: 20px;
     }
 }
 
@@ -47,8 +46,13 @@
 .port-body {
     .inline-link {
         display: inline-block;
-            padding: 5px 10px;
-            background: transparent
+        padding: 5px 10px;
+        margin: 1%;
+    }
+    .inline-link:hover, .inline-link:active, .inline-link:focus {
+        background: white;
+        color: red;
+        border: 1px solid red;
     }
 }
 
@@ -56,10 +60,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6%;
-    margin-bottom: 10px;
+    margin: 1%;
     a {
-        margin: 0 5px;
+        margin: 1%;
     }
 }
 .resize {

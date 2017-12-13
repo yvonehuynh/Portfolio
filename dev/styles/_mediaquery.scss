@@ -603,7 +603,7 @@
     }
 }
 
-@media only screen and (min-height: 320px) and (min-width:480px) {
+@media only screen and (min-height: 320px) and (max-width:480px) {
     // header section
     header {
         .typewrite {

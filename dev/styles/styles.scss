@@ -84,6 +84,7 @@ section {
 .inline-link {
     height: 40px;
     padding: 12px;
+    display: block;
     background: red;
     display: inline-block;
     color: white;
@@ -91,6 +92,11 @@ section {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    .inline-link:hover {
+        background: white;
+        color: red;
+        border: 1px solid red;
+    }
 }
 
 @import "mediaquery";
