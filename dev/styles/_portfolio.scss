@@ -46,13 +46,15 @@
 .port-body {
     .inline-link {
         display: inline-block;
-        padding: 5px 10px;
-        margin: 1%;
+    padding: 5px 10px;
+/*     margin: 1%; */
+     border: 1px solid red;
     }
     .inline-link:hover, .inline-link:active, .inline-link:focus {
         background: white;
         color: red;
         border: 1px solid red;
+    padding: 5px 10px;
     }
 }
 
@@ -60,9 +62,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1%;
     a {
-        margin: 1%;
+        padding: 5px 10px;
     }
 }
 .resize {

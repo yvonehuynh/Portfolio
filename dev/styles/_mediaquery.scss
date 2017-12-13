@@ -262,9 +262,13 @@
             background: white;
         }
         a {
-                text-align: center;
-    display: block;
+            text-align: center;
+            display: block;
         }
+    }
+
+    .toggleNav {
+        left: -622px;
     }
 
     nav {

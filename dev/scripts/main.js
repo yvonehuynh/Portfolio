@@ -151,6 +151,12 @@ script.init = (()=>{
 $(document).ready(function () {
     script.init();
     new WOW().init()
+    
+    function closeLink(){
+        $(".page-menu li a").on("click", function(){
+            $(".page-menu li").addClass("toggleNav");
+        })
+    }
 
-
+    closeLink();
  });
