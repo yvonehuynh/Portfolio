@@ -120,9 +120,35 @@
     }
 }
 
+@media only screen and (max-width: 840px) {
+    // general styles
+    h1 {
+        font-size: 7rem;
+    }
+    h4 {
+        font-size: 3.5rem;
+    }
+
+    // about section
+    .attr-cont {
+            position: relative;
+        top: 126%;
+        width: 100%;
+        left: 0;
+    }
+    // portfolio section
+    .port-parent {
+        .port-body {
+                padding: 0 25px;
+        }
+    }
+
+}
+
 @media only screen and (max-width: 740px) {
     h1 {
     padding-left: 80px;
+    font-size: 6rem;
 }
     // about section
     .about-header p {
@@ -138,6 +164,9 @@
     // skills section
 
     // portfolio section
+    .port-parent {
+        padding: 30px;
+    }
     .flickity-enabled.is-draggable {
         padding-top: 55px;
     }
@@ -152,9 +181,11 @@
     }
 
     // blog section {
+        
         .blog-post {
             a {
                 flex-direction: column;
+                width: 100%;
             }
             .blog-image {
                 position: static;
@@ -193,13 +224,13 @@
       width: 40%;
     }
     .connect {
-        position: absolute;
+    /*     position: absolute; */
         right: 0;
-        background: white;
-        width: 53%;
+   /*      background: white; */
+        width: 100%;
         padding: 29px;
-        box-shadow: 10px 10px 10px grey;
-        top: -152px;
+/*         box-shadow: 10px 10px 10px grey;
+        top: -152px; */
     }
     .contact-form {
         width: 100%;
