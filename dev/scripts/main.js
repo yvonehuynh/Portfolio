@@ -8,7 +8,7 @@ const wowAnimate=(()=>{
             animateClass: 'animated',
             offset: 100,
             mobile: false,
-            live: true        // default
+            live: true       
         }
     ).init();
     
