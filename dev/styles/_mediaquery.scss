@@ -10,7 +10,7 @@
 
     .about-header {
         p {
-            font-size: 1.6rem;
+            font-size: 2.5rem;
         }
     }
     .attr-cont {
@@ -34,6 +34,7 @@
     // about section
     .attr-cont {
         position: relative;
+        width: 100%;
         .attr-icon i {
             font-size: 4rem;
             }
@@ -64,10 +65,9 @@
 
     .attr-cont {
         position: relative;
-
-            top: 126%;
-    width: 89%;
-    left: 10%;
+        top: 126%;
+        width: 89%;
+        left: 10%;
     }
 
     // skills section
@@ -87,37 +87,10 @@
 
     // blog section
 
-    .reverse {
-            margin-left: 8%;
-    }
-
     h3 {
         font-size: 2.5rem;
     }
 
-    .blog-des {
-        blockquote {
-            right: 102px;
-        }
-    }
-
-    .reverse {
-        blockquote {
-                left: 57px;
-        }
-    }
-
-    .blog-des blockquote::before {
-        font-size: 11rem;
-        bottom: 106px;
-        left: -28px;
-    }
-
-    .blog-des blockquote::after {
-        height: 59px;
-        font-size: 11rem;
-        bottom: 12px;
-    }
 }
 
 @media only screen and (max-width: 840px) {
@@ -139,7 +112,7 @@
     // portfolio section
     .port-parent {
         .port-body {
-                padding: 0 25px;
+        padding: 0;
         }
     }
 
@@ -157,11 +130,13 @@
     .attr-des {
         p {
             text-align: center;
-            font-size: 1.4rem;
+            font-size: 2.4rem;
         }
     }
 
-    // skills section
+    .attributes {
+        padding: 0;
+    }
 
     // portfolio section
     .port-parent {
@@ -199,17 +174,8 @@
                 right: 0;
                 width: 100%;
             }
-            blockquote::before {
-            font-size: 11rem;
-            bottom: 87px;
-            left: -28px;
-        }
     }
-        .reverse {
-            blockquote {
-                left: -89px;
-            }
-        }
+ }
 
     // footer section
     .footer-content {
@@ -224,13 +190,9 @@
       width: 40%;
     }
     .connect {
-    /*     position: absolute; */
         right: 0;
-   /*      background: white; */
         width: 100%;
         padding: 29px;
-/*         box-shadow: 10px 10px 10px grey;
-        top: -152px; */
     }
     .contact-form {
         width: 100%;
@@ -244,9 +206,15 @@
         justify-content: space-around;
     }
 }
-}
+
 
 @media only screen and (max-width: 710px) {
+
+    // general styles
+    h1 {
+        padding-left: 65px;
+    }
+
     // navigation
     #menuToggle, .menu-icon {
         display: block;
@@ -259,9 +227,19 @@
         .typewrite {
             padding-left: 8px;
         }
+        h2 {
+            .typewrite {
+                    font-size: 3rem;
+                    top: -24px;
+            }
+        }
+        .typewrite {
+            padding-left: 27px;
+        }
     }
-
+    
     .small-head {
+        top: 55px;
         padding-top: 12px;
     }
 
@@ -303,7 +281,15 @@
         .typewrite {
             font-size: 3rem;
         }
+        
 
+    // abotu section
+
+    .attr-des {
+        p {
+            font-size: 2rem;
+        }
+    }
     // skills section
     .skills-container {
             width: 24%;
@@ -317,11 +303,13 @@
 }
 
 @media only screen and (max-width: 680px) {
+
+
     // about section
 
     .about-header {
         p {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
     }
 
@@ -361,28 +349,32 @@
 
     // blog section
 
+    #blog {
+        .blog-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
     .blog-des {
         blockquote::after, blockquote::before {
             display: none;
         }
-    }
-    .reverse {
-        margin-left: 1%;
-        blockquote {
-            left: -81px;
-        }
-    }
-
-    .read-hover {
-        display: inline-block;;
-    }
-    
+     }    
 }
 
 @media only screen and (max-width: 645px) {
 
     h1 {
             font-size: 5rem;
+    }
+
+    // header section
+
+    .header-text {
+        span, h1 {
+                padding-left: 43px;
+        }
     }
 
     // about section {
@@ -426,6 +418,15 @@
 @media only screen and (max-width: 580px) {
     h1 {
         padding-left: 56px;
+        font-size: 4rem;
+    }
+
+    header {
+        h2 {
+            .typewrite {
+                font-size: 2.5rem;
+            }
+        }
     }
 
     // about section
@@ -459,50 +460,41 @@
 
 }
 
-@media only screen and (max-width: 520px) {
-    // header section
-    h1 {
-        font-size: 4.5rem;
-    }
-    .small-head {
-        padding-top: 30px;
-    }
-
-    .typewrite {
-        font-size: 2.7rem;
-    }
-}
 
 @media only screen and (max-width: 485px) {
     // header section
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    .small-head {
-        font-size: 4.5rem;
-    }
 
     h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .page-menu {
-    width: 163px;
+        width: 163px;
     }
 
     // about section
     .attributes {
         flex-direction: column;
-        height: 113px;
         flex-wrap: wrap;
     }
     .about-header {
         padding: 11px;
+        p {
+            font-size: 1.7rem;
+        }
     }
-}
 
-@media only screen and (max-width: 480px) {
+    .attr-cont {
+        .attr-icon {
+            i {
+                font-size: 6rem;
+            }
+        }
+        p {
+            font-size: 1.8rem;
+        }
+    }
+
     h2 {
         font-size: 2.5rem;
     }
@@ -560,12 +552,20 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
+    // header section 
     h1 {
         font-size: 3rem;
     }
+
+    .typewrite {
+        display: none;
+    }
+}
+@media only screen and (max-width: 400px) {
+
     .small-head {
-        font-size: 4rem;
+        font-size: 3    rem;
     }
     .about-quote {
         font-size: 2rem;
@@ -575,11 +575,27 @@
         font-size: 2.2rem;
     }
 
+    .attributes {
+            height: 137px;
+    }
+
     // skills section
 
     #skills {
         padding: 10px 11px;
     }
+
+    // portfolio section
+    .flickity-viewport {
+        height: 197.539px;
+    }
+
+    // blog section {
+        .blog-des {
+            h3 {
+                    font-size: 2rem;
+            }
+        }
 }
 
 @media only screen and (max-width: 380px) {
@@ -595,16 +611,35 @@
         padding: 15px 0;
     }
 
+    .head {
+        font-size: 3rem;
+    }
+
     // about section 
     .about-quote {
         font-size: 1.8rem;
     }
+
 
     // skills section
 
     .skills-container {
         p {
             font-size: 1.7rem;
+        }
+    }
+
+    // portfolio section
+    .port-des {
+        .port-header {
+            font-size: 2.5rem;
+            padding: 0;
+        }
+    }
+
+    .port-parent {
+        .port-bpdy {
+            padding: 0;
         }
     }
 
@@ -617,27 +652,37 @@
         }
     }
 
-    .head {
-        font-size: 2rem;
-    }
-
 }
 
 @media only screen and (max-width: 350px) {
     h1 {
         padding-left: 31px;
+        font-size: 2.5rem;
     }
 
     // header section
 
-    .typewrite {
-        font-size: 2rem;
+    .small-head {
+        font-size: 2.1rem;
     }
 
     // about section
     .attr-cont {
         p {
             font-size: 1rem;
+        }
+    }
+
+    // portfolio section
+    .port-parent {
+        .port-body {
+            padding: 0;
+        }
+    }
+
+    .port-des {
+        .port-header {
+            padding: 0;
         }
     }
 }

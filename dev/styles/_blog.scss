@@ -1,17 +1,17 @@
 #blog {
     background: $accentTwo;
-    .wrapper {
+    .blog-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 }
 
 .blog-post {
-    margin: 90px 0;
-    background: $secondary;
+    background: white;
     display: flex;
     width: 35%;
     flex-direction: column;
+    margin: 1%;
     a {
         display: flex;
         position: relative;
@@ -30,18 +30,20 @@
     }
 
     .blog-des {
-        padding: 0 30px;
+    padding: 15px 30px;
     }   
 }
 
 .blog-des {
     background: white;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     blockquote {
         display: block;
         background: white;
-        padding: 20px;
         position: relative;
-/*         right: 142px; */
         z-index: 1;
         font-size: 2rem;
         width: 100%;
@@ -49,47 +51,6 @@
     }
     h3 {
         font-size: 2.5rem;
-    }
-/*     blockquote::before {
-        content: '“';
-        position: absolute;
-        color: red;
-        width: 10%;
-        height: 59px;
-        font-size: 18rem;
-        bottom: 106px;
-        left: -45px;
-        }
-    blockquote::after {
-        content: '”';
-        position: absolute;
-        color: red;
-        width: 10%;
-        height: 59px;
-        font-size: 18rem;
-        bottom: 38px;
-        } */
-}
-
-.reverse {
-    background: $tererary;
-    position: relative;
-/*     margin-left: 20%; */
-    .blog-des {
-        left: 0;
-    }
-    .blog-image {
-        left: 60%;
-        bottom: 23px;
-        }
-    blockquote {
-        position: relative;
-        z-index: 2;
-        font-size: 2rem;
-        text-align: right;
-    }
-    h3 {
-        text-align: right;
     }
 }
 
