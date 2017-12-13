@@ -730,6 +730,14 @@
 
 }
 
+@media only screen and (max-width: 375px) and (min-height: 667px) {
+    .port-body {
+        .inline-link {
+                padding: 9px 10px;
+        }
+    }
+}
+
 @media only screen and (max-width: 350px) {
     h1 {
         padding-left: 31px;
