@@ -2,6 +2,7 @@ let script = {};
 
 /* WOW Animationa */
 const wowAnimate=(()=>{
+    let wow;
     new WOW(
         {
             boxClass: 'wow',
