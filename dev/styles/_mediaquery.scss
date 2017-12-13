@@ -115,7 +115,6 @@
         padding: 0;
         }
     }
-
 }
 
 @media only screen and (max-width: 740px) {
@@ -207,6 +206,13 @@
     }
 }
 
+@media only screen and (max-width: 736px) and (min-height: 414px) {
+    // skilsl seciton
+    .skills-container {
+        width: 23%;
+    }
+
+}
 
 @media only screen and (max-width: 710px) {
 
